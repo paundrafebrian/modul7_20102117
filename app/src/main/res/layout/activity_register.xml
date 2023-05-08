@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/merah">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold|normal"
+        android:padding="25dp"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditEmailRegister"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditPasswordRegister"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:inputType="textPassword"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:id="@+id/EditFullnameRegister"
+        android:hint="Nama Lengkap"
+        android:textColor="@color/white"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btnsubmitregister"
+        style="@style/BtnLogin"
+        android:text="Sign Up"
+        android:onClick="registerme"/>
+<!--        <Button-->
+<!--            android:id="@+id/btncancelregister"-->
+<!--            style="@style/BtnLogin"-->
+<!--            android:text="Cancel"-->
+<!--            android:onClick="cancelme"/>-->
+
+</LinearLayout>
