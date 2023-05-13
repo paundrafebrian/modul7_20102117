@@ -22,7 +22,6 @@ class SplashActivity : AppCompatActivity() {
             startActivity(pindah)
             finish()
         }, 3000)// ketika aplikasi pertama kli dibuka dia menuju splashcreen dan akan delay
-        // selama 2000s kmdn lgsg menuju halaman login
 
         //agar saat program dirun munculnya di splass page, kita hrs menyettingnya di manifest
     }

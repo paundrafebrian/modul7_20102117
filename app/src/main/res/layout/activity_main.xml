@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="sabar su, lagi digawe!!!"
+        android:text="sabar , lagi digawe!!!"
         android:textSize="20dp"
         android:textColor="@color/black"/>
     <Button
